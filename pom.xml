@@ -7,6 +7,7 @@
     <groupId>com.smartshoppers</groupId>
     <artifactId>github-cicd-actions</artifactId>
     <version>1.0-SNAPSHOT</version>
-
-
+    <build>
+        <finalName>machinelearning2022-smartshoppers</finalName>
+    </build>
 </project>
