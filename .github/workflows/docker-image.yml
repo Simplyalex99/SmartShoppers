@@ -18,7 +18,7 @@ jobs:
         with:
           image: machinelearning2022/machinelearning2022-smartshoppers
           tags: v1, latest
-          registry: registry.io
+          registry: docker.io
           dockerfile: Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
