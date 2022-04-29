@@ -9,5 +9,5 @@ jobs:
   commitlint:
     runs-on: ubuntu-latest
     steps:
-    - name: Run Lint Commit
-    - uses: wagoid/commitlint-github-action@v4
+      - name: Run Lint Commit
+      - uses: wagoid/commitlint-github-action@v4
