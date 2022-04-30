@@ -4,10 +4,11 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
 jobs:
   commitlint:
     runs-on: ubuntu-latest
     steps:
-      - name: Run Lint Commit
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - uses: wagoid/commitlint-github-action@v4
